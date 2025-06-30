@@ -16,6 +16,7 @@ While I did program the rule [no-uncaught-eval](/docs/no-uncaught-eval), it is a
 - [no-uncaught-eval](/docs/no-uncaught-eval)
 - [no-uncaught-json](/docs/no-uncaught-json)
 - [no-uncaught-string](/docs/no-uncaught-string)
+- [no-uncaught-uri](/docs/no-uncaught-uri)
 
 ## Planed features
 

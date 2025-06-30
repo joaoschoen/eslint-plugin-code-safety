@@ -51,19 +51,68 @@ ruleTester.run("no-uncaught-uri", rule, {
   ], 
   valid:[
     {
-    name:"Safe decodeURI() call",
-    code: `
-      async function f(){
-        let y
-        try {
-          y = decodeURI("someURI")
-        } catch (error) {
-          console.log(error);
-        }
-        return y
-      }`,
-    languageOptions: {
-      ecmaVersion: "latest", sourceType: "module"
-    }
-    }]
+      name:"Safe decodeURI() call",
+      code: `
+        async function f(){
+          let y
+          try {
+            y = decodeURI("someURI")
+          } catch (error) {
+            console.log(error);
+          }
+          return y
+        }`,
+      languageOptions: {
+        ecmaVersion: "latest", sourceType: "module"
+      }
+    },
+    {
+      name:"Safe decodeURIComponent() call",
+      code: `
+        async function f(){
+          let y
+          try {
+            y = decodeURIComponent("someURI")
+          } catch (error) {
+            console.log(error);
+          }
+          return y
+        }`,
+      languageOptions: {
+        ecmaVersion: "latest", sourceType: "module"
+      }
+    },
+    {
+      name:"Safe encodeURI() call",
+      code: `
+        async function f(){
+          let y
+          try {
+            y = encodeURI("someURI")
+          } catch (error) {
+            console.log(error);
+          }
+          return y
+        }`,
+      languageOptions: {
+        ecmaVersion: "latest", sourceType: "module"
+      }
+    },
+    {
+      name:"Safe encodeURIComponent() call",
+      code: `
+        async function f(){
+          let y
+          try {
+            y = encodeURIComponent("someURI")
+          } catch (error) {
+            console.log(error);
+          }
+          return y
+        }`,
+      languageOptions: {
+        ecmaVersion: "latest", sourceType: "module"
+      }
+    },
+  ]
 })
