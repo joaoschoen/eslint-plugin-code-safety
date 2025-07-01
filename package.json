@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-code-safety",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An eslint plugin that enforces the proper handling of modules and functions that can throw errors",
   "main": "index.js",
   "type": "module",
