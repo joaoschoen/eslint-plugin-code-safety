@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-code-safety",
+  "name": "code-safety",
   "version": "2.0.1",
   "description": "An eslint plugin that enforces the proper handling of modules and functions that can throw errors",
   "author": "joaoschoen@gmail.com",
