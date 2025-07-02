@@ -1,4 +1,4 @@
-import code_safety from "../lib"
+const code_safety = require("../lib")
 
 module.exports = {
       plugins: {
