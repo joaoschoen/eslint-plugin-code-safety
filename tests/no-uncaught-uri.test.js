@@ -1,4 +1,4 @@
-var rule = require("../rules/no-uncaught-uri")
+var rule = require("../lib/rules/no-uncaught-uri")
 var RuleTester = require("eslint").RuleTester
 
 var ruleTester = new RuleTester()

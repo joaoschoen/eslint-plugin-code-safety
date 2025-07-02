@@ -1,4 +1,4 @@
-var rule = require("../rules/no-uncaught-async")
+var rule = require("../lib/rules/no-uncaught-async")
 var RuleTester = require("eslint").RuleTester
 
 var ruleTester = new RuleTester()

@@ -1,4 +1,4 @@
-var rule = require("../rules/no-uncaught-json")
+var rule = require("../lib/rules/no-uncaught-json")
 var RuleTester = require("eslint").RuleTester
 
 var ruleTester = new RuleTester()
