@@ -1,10 +1,10 @@
 import fs from "fs";
 
-const no_uncaught_async = require("./rules/no-uncaught-async")
-const no_uncaught_eval = require("./rules/no-uncaught-eval")
-const no_uncaught_json = require("./rules/no-uncaught-json")
-const no_uncaught_string = require("./rules/no-uncaught-string")
-const no_uncaught_uri = require("./rules/no-uncaught-uri")
+import { no_uncaught_async } from "./rules/no-uncaught-async"
+import { no_uncaught_eval } from "./rules/no-uncaught-eval"
+import { no_uncaught_json } from "./rules/no-uncaught-json"
+import { no_uncaught_string } from "./rules/no-uncaught-string"
+import { no_uncaught_uri } from "./rules/no-uncaught-uri"
 
 const pkg = JSON.parse(fs.readFileSync(new URL("./package.json", import.meta.url), "utf8"));
 
