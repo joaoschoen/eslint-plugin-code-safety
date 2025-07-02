@@ -5,6 +5,9 @@
   "author": "joaoschoen@gmail.com",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
   "files": [
     "lib/",
     "configs/"
@@ -19,7 +22,8 @@
   ],
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
