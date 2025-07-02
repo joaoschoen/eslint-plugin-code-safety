@@ -1,19 +1,31 @@
 {
   "name": "eslint-plugin-code-safety",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "An eslint plugin that enforces the proper handling of modules and functions that can throw errors",
-  "main": "index.js",
+  "author": "joaoschoen@gmail.com",
+  "main": "index.mjs",
   "type": "module",
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoschoen/eslint-plugin-code-safety.git"
+  },
   "license": "ISC",
   "dependencies": {
     "eslint": "^9.20.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "peerDependencies": {
+		"eslint": ">=9.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoschoen/eslint-plugin-code-safety/issues"
+  },
+  "homepage": "https://github.com/joaoschoen/eslint-plugin-code-safety"
 }
